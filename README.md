@@ -2,6 +2,8 @@
 
 **The AI that tells you what your wardrobe actually needs.**
 
+[View the live Veyra demo](https://veyra-lime.vercel.app)
+
 Veyra is a production-quality concept MVP for a wardrobe intelligence system. It evaluates price, fit, closet overlap, true cost per wear, resale value, trend durability, return risk, and circularity before recommending whether to buy, wait, find secondhand, bid lower, or skip.
 
 ## Why I built this
@@ -72,7 +74,11 @@ npm run build
 
 ## Deploy on Vercel
 
-Import the repository into Vercel and deploy. The project needs no environment variables, database, or external services.
+The production deployment is live at:
+
+**[https://veyra-lime.vercel.app](https://veyra-lime.vercel.app)**
+
+The repository is connected to Vercel, so pushes to `main` trigger new production deployments automatically. The project needs no environment variables, database, or external services.
 
 ## Mocked vs. production
 
